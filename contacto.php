@@ -30,12 +30,12 @@ if ($_POST) { /* es postback */
         $mail = new PHPMailer();
         $mail->IsSMTP();
         $mail->SMTPAuth = true;
-        $mail->Host = "mail.nelsontarche.com.ar"; // SMTP a utilizar. Por ej. mail.dominio.com.ar
-        $mail->Username = "info@nelsontarche.com.ar"; // Correo completo a utilizar
+        $mail->Host = "mail.estebanpalavecino.com.ar"; // SMTP a utilizar. Por ej. mail.dominio.com.ar
+        $mail->Username = "info@estebanpalavecino.com.ar"; // Correo completo a utilizar
         $mail->Password = "aqui va la clave de tu correo";
         $mail->Port = 25;
-        $mail->From = "info@nelsontarche.com.ar"; // Desde donde enviamos (Para mostrar)
-        $mail->FromName = "Nelson Daniel Tarche";
+        $mail->From = "info@estebanpalavecino.com.ar"; // Desde donde enviamos (Para mostrar)
+        $mail->FromName = "Esteban Palavecino";
         $mail->IsHTML(true);
         $mail->SMTPOptions = array(
             'ssl' => array(
@@ -47,7 +47,7 @@ if ($_POST) { /* es postback */
 
         //Destinatario
         $mail->addAddress($correo);
-        //$mail->addBCC("nelson.tarche@gmail.com");
+        //$mail->addBCC("es.palavecino@gmail.com");
         $mail->Subject = "Contacto página web";
         $mail->Body = "Recibimos tu consulta, <br>te responderemos a la brevedad.";
         //  if(!$mail->Send()){
@@ -56,7 +56,7 @@ if ($_POST) { /* es postback */
         $mail->ClearAllRecipients(); //Borra los destinatarios
 
         //Nosotros
-        $mail->addAddress("nelson.tarche@gmail.com");
+        $mail->addAddress("es.palavecino@gmail.com");
         $mail->Subject = "Recibiste un mensaje desde tu página web";
         $mail->Body = "Te escribió $nombre cuyo correo es $correo, con el asunto $asunto y el siguiente mensaje:<br><br>$mensaje";
 

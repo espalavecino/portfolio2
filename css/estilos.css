@@ -8,6 +8,7 @@ body {
     background-image: url('../images/Fondos-01.png');
     background-repeat: repeat;
     background-size: 100%;
+    padding-bottom: 0px;
 }
 
 nav {

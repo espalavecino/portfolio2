@@ -31,7 +31,7 @@
                         </div>
                     </div>
                     <div class="row my-sm-4 my-3">
-                        <div class="col-sm-6 col-12 px-2">
+                        <div class="col-sm-6 col-12 px-2 mt-4 mt-sm-0">
                             <div class="bg-white">
                                 <img src="images/abmclientes.png" alt="ABM Ventas" class="img-fluid">
                                 <div class="row p-3">
@@ -54,7 +54,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-6 col-12 px-2">
+                        <div class="col-sm-6 col-12 px-2 mt-4 mt-sm-0">
                             <div class="bg-white">
                                 <img src="images/abmventas.png" alt="ABM Ventas" class="img-fluid">
                                 <div class="row p-3">
@@ -90,7 +90,7 @@
                                         <p>Proyecto Full Stack desarrollado en PHP, Laravel, Javascript, jQuery, AJAX, HTML, CSS, con panel administrador, gestor de usuarios, módulo de permisos y funcionalidades a fines. </p>
                                     </div>
                                 </div>
-                                <div class="row p-3">
+                                <div class="row p-3 mt-4">
                                     <div class="col-6">
                                         <a href="sistema/abmventas/abmcliente.php" class="btn" target="_blank">Ver online</a>
                                     </div>

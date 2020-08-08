@@ -24,8 +24,8 @@
             </div>
             <div class="container">
                 <section id="inicio">
-                    <div class="row py-5">
-                        <div class="col-10">
+                    <div class="row py-5 mt-5">
+                        <div class="col-10 mb-3">
                             <h1>Hola!<br> Bienvenido a mi web
                             </h1>
                             <h2>Esteban Palavecino</h2>
