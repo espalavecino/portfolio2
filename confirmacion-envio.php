@@ -18,7 +18,7 @@
             <?php       
             include_once("menu.php")        
             ?>            
-            <section id="contacto">
+            <section id="contacto-envio">
                 <div class="row">
                     <div class="col-12 py-5">
                         <h1>Gracias por</br> contactarte,</h1>
@@ -26,8 +26,7 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-10 col-12">
-                        <h2>te responderé a la brevedad.</h2>
-                            
+                        <h2>te responderé a la brevedad.</h2>                          
                     </div>
                 </div>
             </section>

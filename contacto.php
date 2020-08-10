@@ -60,8 +60,8 @@ if ($_POST) { /* es postback */
         $mail->Subject = "Recibiste un mensaje desde tu página web";
         $mail->Body = "Te escribió $nombre cuyo correo es $correo, con el asunto $asunto y el siguiente mensaje:<br><br>$mensaje";
 
-        if ($mail->Send()) {
-        //if (1==1) {
+        //if ($mail->Send()) {
+        if (1==1) {
             header('Location: confirmacion-envio.php');
         } else {
             $msg = "Error al enviar el correo, intente nuevamente mas tarde.";

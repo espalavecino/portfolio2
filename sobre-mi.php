@@ -25,7 +25,7 @@
                     <div class="col-sm-7 col-12">
                         <h1>Sobre mí</h1>
                         <h2>Analista de administración y emprendedor, enfocado en el logro de objetivos en el corto y mediano plazo. Soy una persona motivadora, que busca en todo momento los métodos óptimos para trabajar en equipo.</h2>
-                        <a href="" class="btn my-4" target="_blank">Descargar CV</a>
+                        <a href="../portfolio/files/EstebanPalavecinoCV.pdf" class="btn my-4" target="_blank">Descargar CV</a>
                     </div>
                     <div class="col-sm-3 col-9 mx-5">
                         <img src="images/fotocv.jpg" alt="Esteban Palavecino" title="Esteban Palavecino" class="img-fluid img-circle">

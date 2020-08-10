@@ -46,10 +46,10 @@
                                 </div>
                                 <div class="row p-3">
                                     <div class="col-6">
-                                        <a href="sistema/abmclientes/" class="btn" target="_blank">Ver online</a>
+                                        <a href="../ABMclientes/index.php" class="btn" target="_blank">Ver online</a>
                                     </div>
                                     <div class="col-6 text-right">
-                                        <a href="https://github.com/depcsuite/abmclientes" target="_blank">Código fuente</a>
+                                        <a href="https://github.com/espalavecino/abmclientes" target="_blank">Código fuente</a>
                                     </div>
                                 </div>
                             </div>
@@ -69,10 +69,10 @@
                                 </div>
                                 <div class="row p-3">
                                     <div class="col-6">
-                                        <a href="sistema/login" class="btn" target="_blank">Ver online</a>
+                                        <a href="../login/login.php" class="btn" target="_blank">Ver online</a>
                                     </div>
                                     <div class="col-6 text-right">
-                                        <a href="https://github.com/depcsuite/abmventas" target="_blank">Código fuente</a>
+                                        <a href="https://github.com/espalavecino/abmventas" target="_blank">Código fuente</a>
                                     </div>
                                 </div>
                             </div>
